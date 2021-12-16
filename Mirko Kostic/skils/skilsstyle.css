@@ -1,0 +1,48 @@
+body {
+    left: 0%;
+   padding-top: 10px;
+    background-image: url(../images/pozadina3.jpg);
+}
+.glavendiv {
+    
+    position: relative;
+    width: 100%;
+    background-color: rgba(47, 47, 47, 0.596);
+    display:inline-flex;
+    justify-content: center;
+    bottom: -10%;
+
+
+}
+
+
+.text{
+    font-size: 30px;
+    color: silver;
+}
+button{
+    background-size: 100px ;
+    padding:10px 60px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+span{
+    border: 2px solid rgb(126, 126, 126);
+    margin: 9px 3%;
+    text-align: center;
+    /* display: flex; */
+
+}
+span:hover{
+    border: solid rgba(0, 0, 0, 0.794);
+}
+div img {
+
+    width: 300px;
+    height: 300px;
+}
+p{  
+    left: 0%;
+    right: 0%;
+}
